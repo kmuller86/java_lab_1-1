@@ -16,18 +16,18 @@ public class Main {
         /*  zad.2 zadeklarować 2 zmienne typu int i wykonać na nich obliczenia arytmetyczn (+, -, *, /, %)
         *   wynik wyświetlić w konsoli programu
         */
-//        Scanner scan = new Scanner(System.in);
-//        System.out.print("Podaj imie:");
-//        String imie = scan.next();
-//        System.out.print("Podaj nazwisko:");
-//        String nazwisko = scan.next();
-//        System.out.print("Podaj wiek:");
-//        int wiek = scan.nextInt();
-//        System.out.print("Podaj numer indeksu:");
-//        int nrindex = scan.nextInt();
-//        System.out.println("Imie: " + imie);
-//        System.out.println("Nazwisko: " + nazwisko);
-//        System.out.printf("Twój wiek to %d i numer indeksu to %d \n", + wiek, nrindex);
+        Scanner scan = new Scanner(System.in);
+        System.out.print("Podaj imie:");
+        String imie = scan.next();
+        System.out.print("Podaj nazwisko:");
+        String nazwisko = scan.next();
+        System.out.print("Podaj wiek:");
+        int wiek = scan.nextInt();
+        System.out.print("Podaj numer indeksu:");
+        int nrindex = scan.nextInt();
+        System.out.println("Imie: " + imie);
+        System.out.println("Nazwisko: " + nazwisko);
+        System.out.printf("Twój wiek to %d i numer indeksu to %d \n", + wiek, nrindex);
 
         int A = 2333;
         int B = 34;
