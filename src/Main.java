@@ -34,5 +34,19 @@ public class Main {
         System.out.println("zmienna boolean = " + zmienbol);
         System.out.println("zmienna char = " + zmienchar);
         System.out.println("string hehe = " + hehe);
+        int liczbaA = 25;
+        int liczbaB = 37;
+        double liczbaX = 37.37;
+        double liczbaY = 25.25;
+        int dodawanie = liczbaA + liczbaB;
+        double dodawanie1 = liczbaY + liczbaX;
+        int odejmowanie = liczbaA - liczbaB;
+        double odejmowanie1 = liczbaX - liczbaY;
+        int mnozenie = liczbaA * liczbaB;
+        double mnozenie1 = liczbaX * liczbaY;
+        int dzielenie = liczbaA / liczbaB;
+        double dzielenie1 = liczbaX / liczbaY;
+        int reszta = liczbaA % liczbaB;
+        double reszta1 = liczbaX % liczbaY;
     }
 }
