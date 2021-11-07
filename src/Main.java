@@ -16,6 +16,26 @@ public class Main {
 
         /* zad.3 wpisz z klawiatury liczbę zmiennoprzecinkową (użyj klasy Scanner z poprzednich ćwiczeń)
          * i stwórz konstrukcję else if z dowolnymi komunikatami */
+        if (21 % 3 == 0) {
+            System.out.println("Podzielny przez 3");
+        } else {
+            System.out.println("Niepodzielny przez 3");
+        }
+        String result = 57067 % 2 == 0 ? "Parzysta" : "Nieparzysta";
+        System.out.println(result);
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Wpisz liczbe1:");
+        int x = scanner.nextInt();
+        System.out.print("Wpisz liczbe2:");
+        int y = scanner.nextInt();
+        scanner.close();
+        if (x % y == 0) {
+            System.out.printf("%d jest podzielony na %d", x, y);
+        } else {
+            System.out.printf("%d nie podzielony na %d", x, y);
+        }
+
 
     }
 }
